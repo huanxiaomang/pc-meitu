@@ -1,7 +1,7 @@
 import axios from "axios"
 
-let httpUrl = 'http://1.117.61.181:8088/'
-let bendi = 'http://127.0.0.1:8088'
+let httpUrl = ''
+let bendi = ''
 
 
 

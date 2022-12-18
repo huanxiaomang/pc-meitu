@@ -7,7 +7,7 @@
             请用电脑访问以下页面
         </div>
         <div class="link">
-            http://1.117.61.181/
+            
         </div>
         <div class="button" @click="state.copyToClipBoard">
             点击复制
@@ -26,7 +26,7 @@ export default {
 
             copyToClipBoard() {
 
-                let content = 'http://1.117.61.181/'
+                let content = '[地址]'
 
                 let copyInput = document.createElement('input');//创建input元素
                 document.body.appendChild(copyInput);//向页面底部追加输入框
